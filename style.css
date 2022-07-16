@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.849), rgba(255, 255, 255, 0.10)), url(images/index.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 665px;
+    padding: 180px 0 20px 221px ;
+    color: white;
+}
+header h1{
+    font-size: 55px;
+    font-weight: bold;
+    width: 40%;
+}
+header p{
+    font-size: 18px;
+    padding-bottom: 20px;
+    width: 40%;
+}
+.allLink{
+    width: 160px;
+    text-decoration: none;
+    color: white;
+    background-color: #EF233C;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.helpPoor{
+    display: flex;
+    margin: 100px 221px;
+    height: 447px;
+    justify-content: space-between;
+}
+.helpPoorDescription{
+    width: 45%;
+    position: relative;
+    top: 15%;
+}
+.helpPoor img{
+    width: 45%;
+    border-radius: 10px;
+}
+.helpPoorDescription h2{
+    font-size: 45px;
+    font-weight: bold;
+    top: 20%;
+}
+.helpPoorDescription p{
+    font-size: 18px;
+    padding-bottom: 20px;
+
+}
+.YourSuvive{
+    margin: 0 221px;
+    justify-content: space-between;
+}
